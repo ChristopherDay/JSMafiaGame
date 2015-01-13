@@ -1,0 +1,31 @@
+<!doctype html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>Untitled Document</title>
+    </head>
+    <body>
+        <div class="timers">
+            <strong>Game Time: </strong><span data-timer="game"></span>
+        </div>
+        <ul>
+            <li><strong>Level:</strong> <span data-user-stat="level"></span> <small>(<span data-user-stat="exp"></span>)</small></li>
+            <li><strong>Cash:</strong> &pound;<span data-user-stat="cash"></span></li>
+            <li><strong>Heat:</strong> <span data-user-stat="heat"></span>/<span data-user-stat="max-heat"></span></li>
+        </ul>
+        
+        <fieldset>
+            <legend>Crimes</legend>
+            <ul class="crimes"></ul>
+        </fieldset>
+        
+        <fieldset>
+            <legend>Log <small onClick="game.clearLog();">(clear)</small></legend>
+            <ul class="log"></ul>
+        </fieldset>
+        
+        <script src="jquery-1.11.1.min.js" type="application/javascript"></script>
+        <script src="game.js" type="application/javascript"></script>
+
+    </body>
+</html>
