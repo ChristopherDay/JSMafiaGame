@@ -45,10 +45,10 @@
                 exp:$($("[data-user-stat='exp']"))
             }, 
             crimes: [
-                {name:"test0", heat:1, cash: 7, exp: 1},
-                {name:"test1", heat:2, cash: 15, exp: 2},
-                {name:"test2", heat:5, cash: 30, exp: 3},
-                {name:"test3", heat:10, cash: 50, exp: 5}
+                {name:"Steal Candy", heat:1, cash: 7, exp: 1},
+                {name:"Rob a child", heat:2, cash: 15, exp: 2},
+                {name:"Rob a Store", heat:5, cash: 30, exp: 3},
+                {name:"Sell weed to teenagers", heat:10, cash: 50, exp: 5}
             ], 
             ranks: [0, 5, 10, 30, 100, 250, 500, 1000, 1750, 3000, 6000, 10000, 20000, 50000, 100000, 250000, 500000, 1000000]
         }
