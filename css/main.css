@@ -1,0 +1,40 @@
+body{
+    background-color: #555;
+    font-family: Helvetica;
+    font-size: 1.075em;
+}
+#title{
+    text-align: center;
+    margin-bottom: 20px;
+}
+#title, .timers, #player, a, ul.crimes{
+    text-decoration: none;
+    list-style: none;
+    color: #bbb;
+}
+#player li{
+    padding: 5px;
+}
+a:hover{
+    color: #ccc;
+}
+fieldset { 
+    border:1px solid #bbb; 
+    margin-bottom: 10px; 
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    border-radius: 10px;
+    -webkit-box-shadow: 4px 4px 5px rgba(50, 50, 50, 0.75);
+    -moz-box-shadow: 4px 4px 5px rgba(50, 50, 50, 0.75);
+    box-shadow: 4px 4px 5px rgba(50, 50, 50, 0.75);
+}
+legend {    
+    padding: 0.2em 0.5em;
+    border:1px solid #bbb;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+    color:#bbb;
+    text-align:right;
+    font-weight: bold;
+}

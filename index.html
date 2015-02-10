@@ -2,13 +2,15 @@
 <html>
     <head>
         <meta charset="UTF-8">
-        <title>Untitled Document</title>
+        <title>JS Mafia Game 1.0.1</title>
+        <link rel="stylesheet" href="css/main.css">
     </head>
     <body>
+        <h1 id="title">JS MAFIA GAME</h1>
         <div class="timers">
             <strong>Game Time: </strong><span data-timer="game"></span>
         </div>
-        <ul>
+        <ul id="player">
             <li><strong>Level:</strong> <span data-user-stat="level"></span> <small>(<span data-user-stat="exp"></span>)</small></li>
             <li><strong>Cash:</strong> &pound;<span data-user-stat="cash"></span></li>
             <li><strong>Heat:</strong> <span data-user-stat="heat"></span>/<span data-user-stat="max-heat"></span></li>
@@ -24,8 +26,8 @@
             <ul class="log"></ul>
         </fieldset>
         
-        <script src="jquery-1.11.1.min.js" type="application/javascript"></script>
-        <script src="game.js" type="application/javascript"></script>
+        <script src="js/jquery-1.11.1.min.js" type="application/javascript"></script>
+        <script src="js/game.js" type="application/javascript"></script>
 
     </body>
 </html>
